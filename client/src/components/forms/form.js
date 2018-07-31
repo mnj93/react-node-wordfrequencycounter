@@ -1,6 +1,6 @@
 import React from "react";
 import InlineError from '../messages/InlineError';
-
+import Validator from "validator";
 class InputForm extends React.Component{
     constructor(props){
         super(props);
@@ -21,7 +21,9 @@ class InputForm extends React.Component{
     onSubmit =(e) => {
         e.preventDefault();
         let errors = '';
-        if(this.state.n === '') { errors = 'Please enter any number!'};
+        if(this.state.n === '') { errors = 'Please enter any number!'}
+        else if(!Validator.isNumeric(this.state.n)) { errors = 'Please enter valid number!'}
+        else if(this.state.n <= 0) { errors = 'Please enter valid number, Should be greater than 0!'}
         this.setState({errors});     
         
         if(!errors){
@@ -33,7 +35,7 @@ class InputForm extends React.Component{
                     loading:false
                 })
             });
-            this.setState({loading:false});
+            
         }
     }
     render(){
