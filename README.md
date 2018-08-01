@@ -45,14 +45,13 @@ npm start
 ## Screenshots
 
 * Home Screen
-<img src="https://ibb.co/cnikQe" />
+<img src="https://user-images.githubusercontent.com/20276545/43505374-5f021260-9584-11e8-892f-921ff25936d2.png" />
 
 * Validation Checks 
-<img src="https://ibb.co/nafX5e" />
-<img src="https://ibb.co/mTjs5e" />
-<img src="https://ibb.co/fJ8wWK" />
+<img src="https://user-images.githubusercontent.com/20276545/43505370-5e6c8e70-9584-11e8-8272-02ad6e749278.png" />
+<img src="https://user-images.githubusercontent.com/20276545/43505371-5e9cd242-9584-11e8-8ae8-b74a567fe3bc.png" />
+<img src="https://user-images.githubusercontent.com/20276545/43505372-5ece1d84-9584-11e8-9d8b-83b376639d47.png" />
 
 * Results
- <img src="https://ibb.co/fEGTdz" />
-<img src="https://ibb.co/cnU3BK" />
-
+ <img src="https://user-images.githubusercontent.com/20276545/43505368-5e019e6c-9584-11e8-8b2f-875170797811.png" />
+<img src="https://user-images.githubusercontent.com/20276545/43505369-5e36c0b0-9584-11e8-9132-f07f4806a4af.png" />
