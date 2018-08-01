@@ -35,7 +35,7 @@ class InputForm extends React.Component{
                     loading:false
                 })
             });
-            
+            this.setState({loading:false});
         }
     }
     render(){
