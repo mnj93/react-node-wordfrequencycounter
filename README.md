@@ -1,7 +1,7 @@
 # react-node-wordfrequencycounter
 
 Front end(developed in React) accepts a number N , On entering a value request will be sent to the backend(NodeJs and ExpressJS).
-From backend file will be fetched from remote host and calculations will be done and it will eturn the top N most frequently occurring words in file.
+From backend file will be fetched from remote host and calculations will be done and it will return the top N most frequently occurring words in file.
 Results will be shown in table format on front end.
 
 ## Getting Started
